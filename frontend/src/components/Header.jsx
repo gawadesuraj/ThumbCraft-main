@@ -40,14 +40,14 @@ const Header = () => {
 
             {/* Auth Section */}
             <div className="flex items-center space-x-4">
-              {/* Portfolio Link */}
+              {/* GitHub Link */}
               <a
-                href="https://abhisheknavgan.xyz"
+                href="https://github.com/gawadesuraj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden md:flex items-center space-x-1 text-gray-600 hover:text-blue-600 transition-colors duration-200 px-3 py-2 rounded-lg hover:bg-gray-50"
               >
-                <span className="text-sm font-medium">Portfolio</span>
+                <span className="text-sm font-medium">GitHub</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
               {isAuthenticated ? (
