@@ -64,6 +64,15 @@ app.use('/api/projects', projectRoutes);
 app.use('/api/thumbnails', thumbnailRoutes);
 app.use('/api/analytics', analyticsRoutes);
 
+// Welcome endpoint
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'Welcome to ThumbCraft API Server!',
+    health: '/health'
+  });
+});
+
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.json({
