@@ -14,7 +14,7 @@ export default function CommandPalette() {
 
   const actions = [
     { id: '1', title: 'Go to Dashboard', shortcut: 'Alt + D', action: () => navigate('/') },
-    { id: '2', title: 'Generate Thumbnail Studio', shortcut: 'Alt + G', action: () => navigate('/workspace') },
+    { id: '2', title: 'Open ThumbCraft Studio', shortcut: 'Alt + G', action: () => navigate('/workspace') },
     { id: '3', title: 'Usage Analytics & Credits', shortcut: 'Alt + A', action: () => navigate('/analytics') },
     { id: '4', title: 'Thumbnail History', shortcut: 'Alt + H', action: () => navigate('/history') },
     { id: '5', title: 'Toggle Dark / Light Mode', shortcut: 'Alt + T', action: toggleTheme },

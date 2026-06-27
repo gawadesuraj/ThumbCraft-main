@@ -120,7 +120,7 @@ export default function Analytics() {
               <span>SaaS billing policy</span>
             </div>
             <p className="text-xs text-gray-500 leading-relaxed font-light">
-              AI Thumbnail Studio operates on a credit structure. Each user receives 50 monthly credits. 
+              ThumbCraft operates on a credit structure. Each user receives 50 monthly credits. 
               Each variation batch of thumbnails consumes 5 credits. Prompt enhancements cost 1 credit.
             </p>
           </div>

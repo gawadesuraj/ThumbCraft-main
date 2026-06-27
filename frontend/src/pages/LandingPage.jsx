@@ -28,10 +28,10 @@ export default function LandingPage() {
       <nav className="relative z-10 max-w-7xl mx-auto w-full px-6 py-5 flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <div className="w-9 h-9 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-blue-500/20">
-            S
+            TC
           </div>
           <span className="font-extrabold text-lg tracking-wide bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent">
-            AI Thumbnail Studio
+            ThumbCraft
           </span>
         </div>
 
@@ -118,7 +118,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="relative z-10 max-w-7xl mx-auto w-full px-6 py-6 border-t border-gray-200/50 dark:border-gray-800/40 text-center text-xs text-gray-400">
-        &copy; {new Date().getFullYear()} AI Thumbnail Studio. Built for Professional Portfolio. All rights reserved.
+        &copy; {new Date().getFullYear()} ThumbCraft. Built for Professional Portfolio. All rights reserved.
       </footer>
 
       {/* Login modal */}

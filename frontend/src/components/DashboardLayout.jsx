@@ -51,10 +51,10 @@ export default function DashboardLayout({ children }) {
       <header className="fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-4 py-3 bg-white/70 dark:bg-gray-900/70 border-b border-gray-200/50 dark:border-gray-800/40 backdrop-blur-md md:hidden">
         <div className="flex items-center space-x-2">
           <div className="w-9 h-9 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg">
-            S
+            TC
           </div>
           <span className="font-bold text-lg tracking-wider bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent">
-            Thumbnail Studio
+            ThumbCraft
           </span>
         </div>
         <button
@@ -71,11 +71,11 @@ export default function DashboardLayout({ children }) {
           {/* Logo */}
           <div className="p-6 hidden md:flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center text-white font-black text-xl shadow-xl shadow-blue-500/10">
-              S
+              TC
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-base tracking-wide bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent">
-                Thumbnail Studio
+                ThumbCraft
               </span>
               <span className="text-[10px] text-gray-400 font-mono">v1.0 Portfolio</span>
             </div>
